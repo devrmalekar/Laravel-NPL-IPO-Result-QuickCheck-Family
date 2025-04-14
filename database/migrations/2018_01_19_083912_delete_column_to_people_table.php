@@ -1,0 +1,37 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class DeleteColumnToPeopleTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        if(Schema::hasTable('people')){
+            Schema::table('people', function (Blueprint $table) {
+                $table->dropColumn('bank_name');
+                $table->dropColumn('acc_num');
+                $table->dropColumn('dmat_id');
+                $table->dropColumn('client_id');
+            });
+        }
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('people', function (Blueprint $table) {
+            //
+        });
+    }
+}

@@ -1,0 +1,157 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar-info {
+    width: 100%;
+
+
+}
+.fixed-me{
+    transition: all 1s ;
+}
+
+.fixed-me{
+    background-color:#000 !important;
+    padding: 0px  !important;
+    margin-bottom: 5px;
+    position: fixed;
+    top:0;
+    z-index:888;
+    width: 100%;
+    border-bottom: 3px solid #ccc !important;
+
+}
+
+.navbar-me {
+
+    transition: all 1s ;
+}
+.header-right-menu{
+    padding: 5px 15px !important;
+
+}
+.site-logo{
+    padding: 15px 20px !important;
+    margin: 15px 10px !important;
+}
+.navbar-me{
+    padding: 10px 0px;
+    background-color: transparent;
+    top: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.navbar-collapse{
+    text-align: center;
+    border-top-width: 0px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.menu-collapsed-button{
+    margin: 20px 15px 10px 15px !important;
+}
+
+nav a{
+    font-weight: bold !important;
+}
+
+nav a i{
+    padding-right: 10px;
+}
+
+.flex-center {
+    align-items: center;
+ /*   display: flex;*/
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+form{
+    width: 100%;
+}
+
+.form-control{
+    height: auto;
+}
+
+input, dropdown-menu span, .bootstrap-select span, .btn-primary{
+    font-size: 14px !important;
+    color: #636b6f !important;
+    font-weight: bold !important;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.dropdown-menu .active>a, .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #000000 !important;
+    color: #fff;
+}
+
+
+.btn-default.dropdown-toggle{
+    background-color: #fff !important;
+
+}
+
+.error{
+    color:#b94a48;
+    font-weight: bold;
+}
+
+th{
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+tr{
+    text-align: left;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td, .pagination .page-link{
+    font-size: 14px !important;
+}
